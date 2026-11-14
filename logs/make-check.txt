@@ -1,0 +1,1 @@
+make check passed 2026-11-14 (license-check, english-check, gofmt, go vet)

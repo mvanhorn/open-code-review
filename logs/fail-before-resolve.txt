@@ -1,0 +1,16 @@
+--- FAIL: TestResolve_DefaultRules (0.00s)
+    --- FAIL: TestResolve_DefaultRules/app/models/user.rb (0.00s)
+        system_rules_test.go:229: Resolve("app/models/user.rb"): expected rule containing "Nil, False, and Absent Values", got "#### Correctness\nIs the logic correct? Are there missing boundary conditions?\nAr..."
+    --- FAIL: TestResolve_DefaultRules/lib/tasks/cleanup.rake (0.00s)
+        system_rules_test.go:229: Resolve("lib/tasks/cleanup.rake"): expected rule containing "Nil, False, and Absent Values", got "#### Correctness\nIs the logic correct? Are there missing boundary conditions?\nAr..."
+    --- FAIL: TestResolve_DefaultRules/mygem.gemspec (0.00s)
+        system_rules_test.go:229: Resolve("mygem.gemspec"): expected rule containing "Nil, False, and Absent Values", got "#### Correctness\nIs the logic correct? Are there missing boundary conditions?\nAr..."
+    --- FAIL: TestResolve_DefaultRules/Gemfile (0.00s)
+        system_rules_test.go:229: Resolve("Gemfile"): expected rule containing "Nil, False, and Absent Values", got "#### Correctness\nIs the logic correct? Are there missing boundary conditions?\nAr..."
+    --- FAIL: TestResolve_DefaultRules/Rakefile (0.00s)
+        system_rules_test.go:229: Resolve("Rakefile"): expected rule containing "Nil, False, and Absent Values", got "#### Correctness\nIs the logic correct? Are there missing boundary conditions?\nAr..."
+    --- FAIL: TestResolve_DefaultRules/lib/Rakefile (0.00s)
+        system_rules_test.go:229: Resolve("lib/Rakefile"): expected rule containing "Nil, False, and Absent Values", got "#### Correctness\nIs the logic correct? Are there missing boundary conditions?\nAr..."
+FAIL
+FAIL	github.com/alibaba/open-code-review/internal/config/rules	0.006s
+FAIL

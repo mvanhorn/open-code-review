@@ -1,0 +1,5 @@
+ok  	github.com/alibaba/open-code-review/internal/config/allowlist	0.009s
+ok  	github.com/alibaba/open-code-review/internal/config/rules	0.237s
+ok  	github.com/alibaba/open-code-review/internal/config/template	0.004s
+ok  	github.com/alibaba/open-code-review/internal/config/testconnection	0.002s
+ok  	github.com/alibaba/open-code-review/internal/config/toolsconfig	0.008s
